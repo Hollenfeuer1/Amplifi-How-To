@@ -1,0 +1,60 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+h1, h2 {
+    font-family: 'Fjalla One', sans-serif;
+}
+header img {
+    margin: 2rem;
+    width: 226px;
+}
+img {
+    max-width: 1200px;
+}
+.navbar {
+    margin: 0 auto;
+    background: #000;
+    font-family: 'Fjalla One', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar ul {
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.navbar li {
+    margin: 0 2rem;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.center-image {
+    text-align: center;
+}
+.videos-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-evenly;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
