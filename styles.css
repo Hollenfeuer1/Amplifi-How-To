@@ -12,6 +12,38 @@ header img {
 img {
     max-width: 1200px;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        min-width: 500px !important;
+    }
+    h1, h2, h3, p {
+        text-align: center;
+    }
+    .page-container {
+        max-width: 500px !important;
+        margin: 0 auto;
+    }
+    header img {
+        margin: 2rem;
+        width: 250px;
+    }
+    img {
+        max-width: 500px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .navbar ul {
+        list-style-type: none;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 500px !important;
+        margin: 0 auto;
+        padding: 0 0 1rem 0 !important;
+    }
+}
 .navbar {
     margin: 0 auto;
     background: #000;
