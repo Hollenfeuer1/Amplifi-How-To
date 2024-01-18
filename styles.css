@@ -13,9 +13,9 @@ img {
     max-width: 1200px;
 }
 @media only screen and (max-width: 600px) {
-    body {
+   /*body {
         min-width: fit-content !important;
-    }
+    } */
     h1, h2, h3, p {
         text-align: center;
     }
@@ -34,18 +34,21 @@ img {
         display: flex;
         flex-direction: column !important;
     }
+    .navbar li {
+        margin: 0 1rem !important;
+    }
     .navbar ul {
         list-style-type: none;
         display: inline-flex;
         flex-direction: row;
-        justify-content: center;
-        width: 500px !important;
+        justify-content: space-evenly;
+        width: 450px !important;
         margin: 0 auto;
         padding: 0 0 1rem 0 !important;
     }
     .content-wrapper {
         width: 65% !important;
-        left: 0.75rem;
+        /* left: 0.75rem; */
     }
     iframe {
         width: auto;
