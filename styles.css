@@ -14,13 +14,13 @@ img {
 }
 @media only screen and (max-width: 600px) {
     body {
-        min-width: 500px !important;
+        min-width: fit-content !important;
     }
     h1, h2, h3, p {
         text-align: center;
     }
     .page-container {
-        max-width: 500px !important;
+        width: 100% !important;
         margin: 0 auto;
     }
     header img {
