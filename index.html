@@ -35,48 +35,40 @@
             <p>View these videos for a step-by-step guide on how to access assets in Amplifi or read our guide below:
             </p>
             <div class="videos-container">
+                <div class="modal content-wrapper" role="dialog" id="modal1">
+                    <a href="#" class="close" title="close">&times;</a>
+                    <p class="modal-video"><iframe src="https://share.zight.com/bLuQGJNk?embed=true" width="575" height="400" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" data-frame-src="https://share.zight.com/bLuQGJNk?embed=true" style="border: none;"></iframe></p>
+                </div>
+                <div class="modal content-wrapper" role="dialog" id="modal2">
+                    <a href="#" class="close" title="close">&times;</a>
+                    <p class="modal-video"><iframe src="https://share.zight.com/BluqNpnP?embed=true" width="575" height="400" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" data-frame-src="https://share.zight.com/BluqNpnP?embed=true" style="border: none;"></iframe></p>
+                </div>
+                <div class="modal content-wrapper" role="dialog" id="modal3">
+                    <a href="#" class="close" title="close">&times;</a>
+                    <p class="modal-video">Video Content 3</p>
+                </div>
+                <div class="modal content-wrapper" role="dialog" id="modal4">
+                    <a href="#" class="close" title="close">&times;</a>
+                    <p class="modal-video">Video Content 4</p>
+                </div>
                 <div id="video">
                     <span>Add a single product to your Lightbox:</span>
-                    <p><button id="myBtn"><img src="/images/Product-Select_Single_VideoThumbnail.png" class="video-thumbnail"/></button></p>
-                    <div id="myModal" class="modal">
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <p>Video Content</p>
-                        </div>
-                    </div>
+                    <p><a href="#modal1" class="modal-open trigger"><img src="/images/Product-Select_Single_VideoThumbnail.png" class="video-thumbnail"/></a></p>
                     <p>View written instructions <a href="#single-product">here</a>.</p>
                 </div>
                 <div id="video">
                     <span>Add products in bulk to your Lightbox:</span>
-                    <p><button id="myBtn"><img src="/images/Bulk_Select_VideoThumbnail.png" class="video-thumbnail"/></button></p>
-                    <div id="myModal" class="modal">
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <p>Video Content</p>
-                        </div>
-                    </div>
+                    <p><a href="#modal2" class="modal-open trigger"><img src="/images/Bulk_Select_VideoThumbnail.png" class="video-thumbnail"/></a></p>
                     <p>View written instructions <a href="#bulk-add">here</a>.</p>
                 </div>
                 <div id="video">
                     <span>Download Images</span>
-                    <p><button id="myBtn"><img src="/images/Download_Images_VideoThumbnail.png" class="video-thumbnail"/></button></p>
-                    <div id="myModal" class="modal">
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <p>Video Content</p>
-                        </div>
-                    </div>
+                    <p><a href="#modal3" class="modal-open trigger"><img src="/images/Download_Images_VideoThumbnail.png" class="video-thumbnail"/></a></p>
                     <p>View written instructions <a href="#download-images">here</a>.</p>
                 </div>
                 <div id="video">
                     <span>Download Product Info</span>
-                    <p><button id="myBtn"><img src="/images/Download_Data_VideoThumbnail.png" class="video-thumbnail"/></button></p>
-                    <div id="myModal" class="modal">
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <p>Video Content</p>
-                        </div>
-                    </div>
+                    <p><a href="#modal4" class="modal-open trigger"><img src="/images/Download_Data_VideoThumbnail.png" class="video-thumbnail"/></a></p>
                     <p>View written instructions <a href="#download-product-info">here</a>.</p>
                 </div>
             </div>
@@ -127,22 +119,6 @@
         </div>
     </div>
     <footer>Umarex USA, Inc.</footer>
-    <script>
-        var modal = document.getElementById("myModal");
-        var btn = document.getElementById("myBtn");
-        var span = document.getElementsByClassName("close")[0];
-        btn.onclick = function() {
-            modal.style.display = "block";
-        }
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
 </body>
 
 </html>
