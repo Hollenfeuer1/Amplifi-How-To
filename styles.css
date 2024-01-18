@@ -28,6 +28,7 @@ img {
         width: 250px;
     }
     img {
+        width: -webkit-fill-available;
         max-width: 500px;
     }
     .navbar {
